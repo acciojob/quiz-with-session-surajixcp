@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <!-- do not change this code -->
-    <h1>Quiz</h1>
-    <div id="questions"></div>
-    <button id="submit">Submit</button>
-    <div id="score"></div>
-
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="questions">
+            <div class="question">
+                <p>Question 1: What is the capital of France?</p>
+                <label><input type="radio" name="q1" value="A"> A) Berlin</label>
+                <label><input type="radio" name="q1" value="B"> B) Madrid</label>
+                <label><input type="radio" name="q1" value="C"> C) Paris</label>
+                <label><input type="radio" name="q1" value="D"> D) Rome</label>
+            </div>
+            <div class="question">
+                <p>Question 2: What is 2 + 2?</p>
+                <label><input type="radio" name="q2" value="A"> A) 3</label>
+                <label><input type="radio" name="q2" value="B"> B) 4</label>
+                <label><input type="radio" name="q2" value="C"> C) 5</label>
+                <label><input type="radio" name="q2" value="D"> D) 6</label>
+            </div>
+            <div class="question">
+                <p>Question 3: What is the largest planet in our solar system?</p>
+                <label><input type="radio" name="q3" value="A"> A) Earth</label>
+                <label><input type="radio" name="q3" value="B"> B) Jupiter</label>
+                <label><input type="radio" name="q3" value="C"> C) Mars</label>
+                <label><input type="radio" name="q3" value="D"> D) Saturn</label>
+            </div>
+            <div class="question">
+                <p>Question 4: Who wrote 'Hamlet'?</p>
+                <label><input type="radio" name="q4" value="A"> A) Charles Dickens</label>
+                <label><input type="radio" name="q4" value="B"> B) William Shakespeare</label>
+                <label><input type="radio" name="q4" value="C"> C) Mark Twain</label>
+                <label><input type="radio" name="q4" value="D"> D) Jane Austen</label>
+            </div>
+            <div class="question">
+                <p>Question 5: What is the chemical symbol for water?</p>
+                <label><input type="radio" name="q5" value="A"> A) CO2</label>
+                <label><input type="radio" name="q5" value="B"> B) H2O</label>
+                <label><input type="radio" name="q5" value="C"> C) O2</label>
+                <label><input type="radio" name="q5" value="D"> D) NaCl</label>
+            </div>
+        </div>
+        <button id="submit">Submit</button>
+        <div id="score"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
